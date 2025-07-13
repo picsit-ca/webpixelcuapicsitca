@@ -910,7 +910,7 @@
     uin = u
     Chat:sendSystemMsg("Đặt khối để xác định vị trí, rồi click vào để bắt đầu xây!", uin)
     Player:gainItems(uin, 959, 1, 1)
-    Player:changePlayerMoveType(uin, 1)
+    Player:changPlayerMoveType(uin, 1)
 end)
 
 ScriptSupportEvent:registerEvent("Player.ClickBlock", function(e)
